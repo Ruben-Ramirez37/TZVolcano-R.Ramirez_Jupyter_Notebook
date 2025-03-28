@@ -31,7 +31,19 @@ To run the notebook, ensure you have the following installed:
 You can install the required libraries using:
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn
+conda create --name tzvolcano_machine_learning_env
+conda activate tzvolcano_machine_learning_env
+conda install python=3.7
+conda install pip
+conda install -c conda-forge jupyterlab
+conda install -c conda-forge notebook
+conda install numpy=1.19
+conda install pandas=1.2
+conda install scipy=1.6
+conda install matplotlib=3.3
+conda install ipywidgets=7.6
+conda install scikit-learn=0.24
+pip install tensorflow==2.5.0.rc3
 ```
 
 ## Usage
