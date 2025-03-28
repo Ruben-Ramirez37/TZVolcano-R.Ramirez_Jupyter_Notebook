@@ -27,7 +27,7 @@ To run the notebook, ensure you have the following installed:
   - scikit-learn	0.24.*	Machine learning
   - tensorflow	2.5.0rc3	Neural network libraries
 
-You can install the required libraries using:
+You can install the required libraries using conda:
 
 ```bash
 conda create --name tzvolcano_machine_learning_env
@@ -44,23 +44,6 @@ conda install ipywidgets=7.6
 conda install scikit-learn=0.24
 pip install tensorflow==2.5.0.rc3
 ```
-
-## Usage
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/DBSCAN_BIRCH_clustering.git
-cd DBSCAN_BIRCH_clustering
-```
-
-2. Open the notebook:
-
-```bash
-jupyter notebook Ruben_notebook-DBSCAN_and_BIRCH.ipynb
-```
-
-3. Execute the cells sequentially to understand and run the clustering algorithms.
 
 ## Notebook Structure
 
