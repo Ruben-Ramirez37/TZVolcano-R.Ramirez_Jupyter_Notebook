@@ -13,8 +13,7 @@ The notebook provides:
 4. **Comparison of Algorithms**: Analysis and comparison of DBSCAN and BIRCH based on clustering results.
 5. **Visualizations**: Graphical representations to illustrate clustering results and algorithm behavior.
 
-## Prerequisites
-
+## Required Libraries
 To run the notebook, ensure you have the following installed:
 
 - Python 3.8 or higher
