@@ -20,10 +20,13 @@ To run the notebook, ensure you have the following installed:
 - Python 3.8 or higher
 - Jupyter Notebook or Jupyter Lab
 - Required Python libraries:
-  - `numpy`
-  - `pandas`
-  - `matplotlib`
-  - `scikit-learn`
+  - numpy	1.19.*	Linear algerbra and array manipulation
+  - pandas	1.2.*	Data analysis and manipulation
+  - scipy	1.6.*	Science and math utilities
+  - matplotlib	3.3.*	Plotting
+  - ipywidgets	7.6.0	GUI widgets
+  - scikit-learn	0.24.*	Machine learning
+  - tensorflow	2.5.0rc3	Neural network libraries
 
 You can install the required libraries using:
 
